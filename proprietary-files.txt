@@ -251,7 +251,12 @@ vendor/etc/sensors/config/sns_wrist_pedo.json
 vendor/etc/sensors/sns_reg_config
 
 # Thermal
+vendor/bin/thermal-engine
+vendor/etc/init/init_thermal-engine.rc
+vendor/etc/thermal-engine.conf
 vendor/etc/thermal-engine-hawao.conf
+-vendor/lib/libthermalclient.so
+-vendor/lib64/libthermalclient.so
 
 # Touchscreen firmware
 vendor/firmware/focaltech-edosd-ft3519-72-0000-hawao.bin
