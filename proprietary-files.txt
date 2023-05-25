@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from hawao_g S2SES32.28-70-3
+# All unpinned blobs below are extracted from hawao_g S2SES32.28-70-8
 
 # ACDB
 vendor/etc/acdbdata/Bluetooth_cal.acdb
