@@ -1,0 +1,2 @@
+# Lights
+genfscon sysfs /devices/platform/soc/soc:indicator_led/leds/charging               u:object_r:sysfs_leds:s0
