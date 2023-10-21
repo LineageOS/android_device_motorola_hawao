@@ -52,6 +52,10 @@ PRODUCT_PACKAGES += \
     init.oem.fingerprint2.sh \
     init.mmi.overlay.rc
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.lights-service.bengal
+
 # Shipping API level
 BOARD_API_LEVEL := 30
 BOARD_SHIPPING_API_LEVEL := 30
