@@ -16,6 +16,23 @@
       "message": "It works as expected with the app \"AusweisApp2\" and the \"Personalausweis\" on Moto G42.",
       "revId": "f92cc8f19079ed8ea9cff535d77d29952e25cc00",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e38ecfd_3d18ed64",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24334
+      },
+      "writtenOn": "2023-10-23T21:02:49Z",
+      "side": 1,
+      "message": "Is there any way to check hardware compatibility of this feature without trying the apps you have mentioned? I wanna pick this change to its sibling devices as well.",
+      "revId": "f92cc8f19079ed8ea9cff535d77d29952e25cc00",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
