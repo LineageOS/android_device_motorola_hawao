@@ -33,6 +33,24 @@
       "message": "Is there any way to check hardware compatibility of this feature without trying the apps you have mentioned? I wanna pick this change to its sibling devices as well.",
       "revId": "f92cc8f19079ed8ea9cff535d77d29952e25cc00",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b523c4d_82615382",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11409
+      },
+      "writtenOn": "2023-10-24T07:02:38Z",
+      "side": 1,
+      "message": "I did not yet find an example for host-based card emulation and an acompanying card reading software to test the extended length without the ID card.\n\nBut, probably it is not necessary for the siblings.\n\n**Devon**\nOnly one file in /vendor/etc references ISO_DEP_MAX.\n\nfile: `libnfc-hal-st.conf`\ncontains:\n```\n# Extended APDU length for ISO_DEP\nISO_DEP_MAX_TRANSCEIVE\u003d0xFEFF\n```\nCould be working out of the box.\n\n**Rhode**\nTwo-file setup like hawao, however libnfc-sec-vendor.conf already contains the extended ISO_DEM_MAX_TRANCEIVE value.\n\nfile: `libnfc-nxp.conf`\n\n```\n# Extended APDU length for ISO_DEP\nISO_DEP_MAX_TRANSCEIVE\u003d0xFEFF\n```\n\nfile: `libnfc-sec-vendor.conf`\n\n```\nOFF_HOST_SIM_PIPE_ID\u003d0x06\nISO_DEP_MAX_TRANSCEIVE\u003d0xFEFF\nDEFAULT_ISODEP_ROUTE\u003d0x83\n```\n\nShould also be correct already.",
+      "parentUuid": "0e38ecfd_3d18ed64",
+      "revId": "f92cc8f19079ed8ea9cff535d77d29952e25cc00",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

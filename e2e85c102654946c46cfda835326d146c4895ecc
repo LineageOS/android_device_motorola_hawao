@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33dd4699_d1304321",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11409
+      },
+      "writtenOn": "2023-10-24T07:02:38Z",
+      "side": 1,
+      "message": "Should be ok.\n\nWho adjusts the vendor specific repository for hawao (hawao-vendor.mk)?",
+      "revId": "e2e85c102654946c46cfda835326d146c4895ecc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
