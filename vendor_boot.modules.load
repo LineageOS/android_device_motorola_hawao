@@ -16,3 +16,4 @@ mmi_relay.ko
 sensors_class.ko
 touchscreen_mmi.ko
 focaltech_v2_mmi.ko
+exfat.ko
