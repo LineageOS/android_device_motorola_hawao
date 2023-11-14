@@ -12,7 +12,7 @@ on mmi-priority
 
 on post-fs
    # "Tap to wake" gesture
-   chown root input /sys/class/sensors/dt-gesture/enable
+   chown system system /sys/class/sensors/dt-gesture/enable
    chmod 0660 /sys/class/sensors/dt-gesture/enable
    chown root input /sys/class/sensors/dt-gesture/poll_delay
    chmod 0660 /sys/class/sensors/dt-gesture/poll_delay
