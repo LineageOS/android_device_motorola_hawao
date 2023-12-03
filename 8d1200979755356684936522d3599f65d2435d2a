@@ -16,6 +16,23 @@
       "message": "Works as expected.",
       "revId": "8d1200979755356684936522d3599f65d2435d2a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61440c87_0bdf9a91",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11409
+      },
+      "writtenOn": "2023-12-03T08:56:07Z",
+      "side": 1,
+      "message": "Works stable on hawao.",
+      "revId": "8d1200979755356684936522d3599f65d2435d2a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
