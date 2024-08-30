@@ -1,4 +1,4 @@
-# All firmware images below are extracted from hawao_g T2SES33.73-23-2-6
+# All firmware images below are extracted from hawao_g T2SES33.73-23-2-8
 
 abl.elf:abl.img;AB
 BTFM.bin:bluetooth.img;AB
