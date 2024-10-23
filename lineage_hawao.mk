@@ -23,6 +23,6 @@ PRODUCT_MANUFACTURER := motorola
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="hawao_g-user 13 T2SES33.73-23-2-8 5616a2-1c4eb8 release-keys" \
-    BuildFingerprint=motorola/hawao_g/hawao:13/T2SES33.73-23-2-8/5616a2-1c4eb8:user/release-keys \
+    BuildDesc="hawao_g-user 13 T2SES33.73-23-2-11 9bc4f-29c9d3 release-keys" \
+    BuildFingerprint=motorola/hawao_g/hawao:13/T2SES33.73-23-2-11/9bc4f-29c9d3:user/release-keys \
     DeviceProduct=hawao_g
