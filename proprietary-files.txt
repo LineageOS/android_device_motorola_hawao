@@ -191,6 +191,9 @@ vendor/etc/sec_s3nrn4v_swreg.bin
 # NFC firmware (Samsung)
 vendor/firmware/sec_s3nrn4v_firmware.bin
 
+# OEM
+vendor/etc/vhw.xml
+
 # SAR firmware
 vendor/firmware/aw9610x_0.bin
 
@@ -255,3 +258,6 @@ vendor/firmware/focaltech-edosd-ft3519-72-0000-hawao.bin
 vendor/firmware/focaltech-edovtdr-ft3519-63-0000-hawao.bin
 vendor/firmware/focaltech-visionox-ft3519-88-0000-hawao.bin
 vendor/firmware/focaltech-visionoxrm-ft3519-93-0000-hawao.bin
+
+# WiFi
+vendor/bin/cnss-daemon
