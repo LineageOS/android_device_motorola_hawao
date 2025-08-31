@@ -180,7 +180,13 @@ vendor/etc/init/init.ets.rc
 vendor/lib64/hw/chipone.fingerprint.default.so
 vendor/lib64/libRbsFlow.so
 vendor/lib64/libets_teeclient_v2.so
+vendor/lib64/libfp_ext_svc2.so
 vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so
+vendor/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so
+vendor/usr/idc/uinput-egis.idc
+vendor/usr/idc/uinput-fpsensor.idc
+vendor/usr/keylayout/uinput-egis.kl
+vendor/usr/keylayout/uinput-fpsensor.kl
 
 # Graphics (Adreno firmware)
 vendor/firmware/a630_sqe.fw
