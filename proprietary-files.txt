@@ -110,6 +110,8 @@ vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
+vendor/lib64/libAncFaceDetect.so
+vendor/lib64/libancbase_fd.so
 vendor/lib64/libarcsoft_distortion_correction.so
 vendor/lib64/libarcsoft_low_light_shot.so
 vendor/lib64/libarcsoft_portrait_distortion_correction.so
@@ -158,6 +160,8 @@ vendor/lib64/libvidhance_stabilizer.so
 
 # Camera configs
 vendor/etc/camera/aec_golden_wide.bin
+vendor/etc/camera/anc_detect_model
+vendor/etc/camera/anc_track_model
 vendor/etc/camera/arcsoft_calibration_u_dc.bin
 vendor/etc/camera/dual_golden_wide.bin
 vendor/etc/camera/vidhance_calibration
