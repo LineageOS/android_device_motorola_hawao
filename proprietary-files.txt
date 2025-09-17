@@ -196,8 +196,6 @@ vendor/usr/keylayout/uinput-fpsensor.kl
 vendor/firmware/a630_sqe.fw
 
 # NFC (Samsung)
-vendor/etc/init/android.hardware.nfc@1.2-service.sec.rc
-vendor/etc/init/init.nfc.sec.rc
 vendor/etc/sec_s3nrn4v_hwreg.bin
 vendor/etc/sec_s3nrn4v_swreg.bin
 
