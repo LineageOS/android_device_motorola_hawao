@@ -36,6 +36,11 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('class hal', 'override\n    class hal'),
     ('vendor/lib64/camera/components/com.qti.node.gpu.so', 'vendor/lib64/hw/camera.qcom.so'): blob_fixup()
         .binary_regex_replace(b'camera.mot.is.coming.cts', b'vendor.camera.coming.cts'),
+    (
+        'vendor/lib64/camera/components/com.qti.node.dewarp.so',
+        'vendor/lib64/camera/components/com.vidhance.node.processing.so',
+    ): blob_fixup()
+        .replace_needed('libui.so', 'libui-v34.so'),
 }  # fmt: skip
 
 extract_fns: extract_fns_user_type = {
